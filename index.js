@@ -5,7 +5,7 @@ const { Client } = require('whatsapp-web.js');
 var MessageMedia = require("whatsapp-web.js/src/structures/MessageMedia.js");
 var msg_data = { hist: [] };
 
-var my_num = "<YOUR MOBILE NUMBER>";
+var my_num = "<YOUR_MOBILE_NUMBER_WITH_COUNTRY_CODE>";
 
 var client = new Client({
     //session: { Your SESSION DATA },
