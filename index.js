@@ -38,7 +38,7 @@ client.on('ready', () => {
             if (qry.num) {
                 if (msg_data[qry.num] == undefined) msg_data[qry.num] = 0;
                 if (msg_data[qry.num] < 5) {
-                    client.sendMessage(qry.num + "@c.us", MessageMedia.fromFilePath("./jerry.png"), { caption: `\n_HELLO *FRIEND*_ 😉,\n\nThank you for visiting *WhatsBOT*\n    👍👍👍\n\nWhatsBOT Message No. : *${msg_data["hist"].length + 1}*\n\nConsider Upvoting my _SOLOLEARN_ Code\n    😇😇😇` })
+                    client.sendMessage(qry.num + "@c.us", MessageMedia.fromFilePath("./jerry.png"), { caption: `\n_HELLO *FRIEND*_ 😉,\n\nWishing you a GREAT LIFE ahead...\n    💯💥🏁😎\n\nThank you for visiting *WhatsBOT*\n    👍👍👍\n\nWhatsBOT Message No. : *${msg_data["hist"].length + 1}*\n\nConsider Upvoting my _SOLOLEARN_ Code\n    😇😇😇\n\nhttps://code.sololearn.com/WOwu1UE2z6BR/#html` })
                     msg_data[qry.num]++;
                     msg_data["hist"].push([qry.num.slice(0, 6) + ("****") + qry.num.slice(10), Date.now()])
                     res.end("sent");
